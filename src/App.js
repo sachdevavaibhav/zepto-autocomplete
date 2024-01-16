@@ -1,8 +1,14 @@
+import AutoComplete from "./components/AutoComplete";
+import { data } from "./data/data";
+
 function App() {
   return (
-    <div>
-      <h1>React App</h1>
-    </div>
+    <main className="flex justify-center mt-3">
+      <AutoComplete
+        placeholder={"Search ...."}
+        options={data}
+      />
+    </main>
   );
 }
 
