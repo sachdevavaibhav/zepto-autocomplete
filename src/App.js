@@ -5,8 +5,8 @@ function App() {
   return (
     <main className="flex justify-center mt-3">
       <AutoComplete
-        placeholder={"Search ...."}
         options={data}
+        placeholder="Search"
       />
     </main>
   );
